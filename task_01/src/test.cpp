@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
 
-#include <sum.hpp>
+#include <median.hpp>
 
-TEST(Test, Simple) { ASSERT_EQ(Sum(1, 2, 3), 6); }
+TEST(Test, Simple) { ASSERT_EQ(Median(1, 2, 3), 6); }
