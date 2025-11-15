@@ -1,5 +1,6 @@
 #pragma once
 
 #include <cstddef>
+#include <vector>
 
-void Reverse(int *array, size_t len);
+void Reverse(std::vector<int> *array, size_t len);

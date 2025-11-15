@@ -1,0 +1,1 @@
+void mass(int* ps, int size, int n);
