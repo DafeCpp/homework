@@ -1,5 +1,3 @@
 #pragma once
 
-#include <cstddef>
-
-void Reverse(int *array, size_t len);
+void Reverse(double *array, int len);
