@@ -1,6 +1,7 @@
 
 #include <gtest/gtest.h>
-
-TEST(TopologySort, Simple) {
-  ASSERT_EQ(1, 1);  // Stack []
-}
+#include <shift_array.h>
+int a[] = {1, 2, 3, 4, 5};
+TEST(Shift, Simple) {
+    ASSERT_EQ(get_max(a, 5), 5);
+    }

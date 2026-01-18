@@ -1,0 +1,1 @@
+void shift_array(int* a, int size, int N);
